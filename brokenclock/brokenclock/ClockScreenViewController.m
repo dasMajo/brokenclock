@@ -24,7 +24,7 @@
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
     if (self) {
         self.clockFormatter = [NSDateFormatter new];
-        self.clockFormatter.dateFormat = @"HH:mm";
+        self.clockFormatter.dateFormat = @"HH:mm:ss";
     }
     return self;
 }
